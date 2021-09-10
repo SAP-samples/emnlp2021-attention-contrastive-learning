@@ -7,7 +7,7 @@ In this repository we will provide the source code for the paper *Attention-base
 
 ## Abstract
 
-![Schematic Illustration of Contrastive Refinement](https://raw.githubusercontent.com/SAP-samples/emnlp2021-attention-contrastive-learning/main/img/attention_contrastive.png)
+![Schematic Illustration of Attentiomn Contrastive Learning](https://raw.githubusercontent.com/SAP-samples/emnlp2021-attention-contrastive-learning/main/img/attention_contrastive.png)
 
 Self-supervised learning has recently attracted considerable attention in the NLP community for its ability to learn discriminative features using a contrastive objective. This paper investigates whether contrastive learning can be extended to Transfomer attention to tackling the Winograd Schema Challenge. To this end, we propose a novel self-supervised framework, leveraging a *contrastive loss* directly at the level of *self-attention*. Experimental analysis of our attention-based models on multiple datasets demonstrates superior commonsense reasoning capabilities. The proposed approach outperforms all comparable unsupervised approaches while occasionally surpassing supervised ones.
 
