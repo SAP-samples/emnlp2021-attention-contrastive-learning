@@ -4,7 +4,7 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/emnlp2021-attention-contrastive-learning)](https://api.reuse.software/info/github.com/SAP-samples/emnlp2021-attention-contrastive-learning)
 
 
-In this repository we will provide the source code for the paper *Attention-based Contrastive Learning for Winograd Schemas* to be presented at  [EMNLP 2021](https://2021.emnlp.org/). The code is in parts based on the code from [Huggingface Tranformers](https://github.com/huggingface/transformers) and the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://github.com/vid-koci/bert-commonsense).
+In this repository we will provide the source code for the paper [*Attention-based Contrastive Learning for Winograd Schemas*](https://arxiv.org/abs/2109.05108) to be presented at  [EMNLP 2021](https://2021.emnlp.org/). The code is in parts based on the code from [Huggingface Tranformers](https://github.com/huggingface/transformers) and the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://github.com/vid-koci/bert-commonsense).
 
 ## Abstract
 
@@ -16,18 +16,24 @@ Self-supervised learning has recently attracted considerable attention in the NL
  - [Tassilo Klein](https://tjklein.github.io/)
  - [Moin Nabi](https://moinnabi.github.io/)
 
-## Requirements
-
-## Download and Installation
-
-## Known Issues
-
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/emnlp2021-attention-contrastive-learning/issues) in this repository if you find a bug or have questions about the content.
 For additional support, [ask a question in SAP Community](https://answers.sap.com/questions/ask.html).
 
-## Contributing
+## Citations
+If you use this code in your research,
+please cite:
+
+```
+@proceedings{klein-nabi-2021-attention-contrastive-learning,
+    title = "Attention-based Contrastive Learning for Winograd Schemas",
+    author = "Klein, Tassilo  and
+      Nabi, Moin",
+     booktitle={Findings of the Association for Computational Linguistics: {EMNLP}},
+   year={2021}
+}
+```
 
 ## License
 Copyright (c) 2021 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](LICENSES/Apache-2.0.txt) file.
