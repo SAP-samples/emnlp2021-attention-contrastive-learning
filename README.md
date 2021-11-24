@@ -77,12 +77,17 @@ If you use this code in your research,
 please cite:
 
 ```
-@proceedings{klein-nabi-2021-attention-contrastive-learning,
-    title = "Attention-based Contrastive Learning for Winograd Schemas",
+inproceedings{klein-nabi-2021-attention-based,
+    title = "Attention-based Contrastive Learning for {W}inograd Schemas",
     author = "Klein, Tassilo  and
       Nabi, Moin",
-     booktitle={Findings of the Association for Computational Linguistics: {EMNLP}},
-   year={2021}
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2021",
+    month = nov,
+    year = "2021",
+    address = "Punta Cana, Dominican Republic",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2021.findings-emnlp.208",
+    pages = "2428--2434"
 }
 ```
 
