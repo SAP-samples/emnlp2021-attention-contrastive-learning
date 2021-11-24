@@ -4,6 +4,10 @@
 [![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/emnlp2021-attention-contrastive-learning)](https://api.reuse.software/info/github.com/SAP-samples/emnlp2021-attention-contrastive-learning)
 
 
+#### News
+- **11/24/2021: Provided source code**
+
+
 In this repository we will provide the source code for the paper [*Attention-based Contrastive Learning for Winograd Schemas*](https://arxiv.org/abs/2109.05108) to be presented at  [EMNLP 2021](https://2021.emnlp.org/). The code is in parts based on the code from [Huggingface Tranformers](https://github.com/huggingface/transformers) and the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://github.com/vid-koci/bert-commonsense).
 
 ## Abstract
