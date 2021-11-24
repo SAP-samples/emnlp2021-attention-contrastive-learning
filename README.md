@@ -55,6 +55,9 @@ wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WSCollection.xml
 wget https://raw.githubusercontent.com/aemami1/KnowRef/master/Knowref_dataset/knowref_test.json
 wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/train.c.txt
 wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/test.c.txt
+wget https://storage.googleapis.com/ai2-mosaic/public/winogrande/winogrande_1.1.zip
+unzip winogrande_1.1.zip
+rm winogrande_1.1.zip
 cd ..
 ```
 
