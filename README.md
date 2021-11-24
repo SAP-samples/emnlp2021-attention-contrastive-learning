@@ -20,6 +20,45 @@ Self-supervised learning has recently attracted considerable attention in the NL
  - [Tassilo Klein](https://tjklein.github.io/)
  - [Moin Nabi](https://moinnabi.github.io/)
 
+## Requirements
+- [Python](https://www.python.org/) (version 3.6 or later)
+- [PyTorch](https://pytorch.org/)
+- [Huggingface Tranformers](https://github.com/huggingface/transformers)
+
+
+## Download and Installation
+
+1. Install the requiremennts:
+
+```
+conda install --yes --file requirements.txt
+```
+
+or
+
+```
+pip install -r requirements.txt
+```
+
+2. Clone this repository and install dependencies:
+```
+git clone https://github.com/SAP/acl2020-commonsense-reasoning
+cd acl2020-commonsense-reasoning
+pip install -r requirements.txt
+```
+
+3. Create 'data' sub-directory and download files for PDP, WSC challenge, KnowRef, DPR and WinoGrande:
+```
+mkdir data
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/PDPChallenge2016.xml
+wget https://cs.nyu.edu/faculty/davise/papers/WinogradSchemas/WSCollection.xml
+wget https://raw.githubusercontent.com/aemami1/KnowRef/master/Knowref_dataset/knowref_test.json
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/train.c.txt
+wget http://www.hlt.utdallas.edu/~vince/data/emnlp12/test.c.txt
+cd ..
+```
+
+
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/emnlp2021-attention-contrastive-learning/issues) in this repository if you find a bug or have questions about the content.
