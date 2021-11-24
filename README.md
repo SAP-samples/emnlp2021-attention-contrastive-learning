@@ -61,6 +61,11 @@ rm winogrande_1.1.zip
 cd ..
 ```
 
+4. Train
+
+```
+python main-AMEX.py --do_train --do_eval --learning_rate 1.0e-5 --shuffle --ignore_bestacc --loadcachedfeatures --train_batch_size 18 --num_train_epochs 22 --eval_batch_size 10 --max_seq_length 40 --alpha_param 0.05 --beta_param 0.02 --lambda_param 1.0 --warmup_steps 150  --bert_model=roberta-large --cache_dir cache/ --data_dir=data/  --output_dir model_output/ --task_name wscr
+```
 
 ## How to obtain support
 
