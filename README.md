@@ -42,8 +42,8 @@ pip install -r requirements.txt
 
 2. Clone this repository and install dependencies:
 ```
-git clone https://github.com/SAP/acl2020-commonsense-reasoning
-cd acl2020-commonsense-reasoning
+git clone https://github.com/SAP-samples/emnlp2021-attention-contrastive-learning
+cd emnlp2021-attention-contrastive-learning
 pip install -r requirements.txt
 ```
 
