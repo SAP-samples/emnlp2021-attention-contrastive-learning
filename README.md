@@ -77,7 +77,7 @@ If you use this code in your research,
 please cite:
 
 ```
-inproceedings{klein-nabi-2021-attention-based,
+@inproceedings{klein-nabi-2021-attention-based,
     title = "Attention-based Contrastive Learning for {W}inograd Schemas",
     author = "Klein, Tassilo  and
       Nabi, Moin",
